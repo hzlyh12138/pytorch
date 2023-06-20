@@ -1,1 +1,7 @@
-
+import torch
+import cv2
+import os
+from torch.utils.data import dataset
+root_dir = 'hymenoptera_data/train'
+label_dir="hymenoptera_data/train/ants"
+path=os.path.join(root_dir,label_dir)
